@@ -111,12 +111,12 @@ var magicWordarr2= magicWord.split("");
 var magicWordarrfilter =[...new Set(magicWordarr)];
 
 		
-		console.log(magicNumber); // the number
-		console.log(magicWord);
-		console.log(magicWord.length);
-		console.log(magicWordarr);
-		console.log(magicWordarr2);
-		console.log(magicWordarrfilter);
+		//console.log(magicNumber); // the number
+		//console.log(magicWord);
+		//console.log(magicWord.length);
+		//console.log(magicWordarr);
+		//console.log(magicWordarr2);
+		//console.log(magicWordarrfilter);
 		var myWord=[];
 		 var buttons =function () {
     myButtons = document.getElementById('buttons');
@@ -290,8 +290,8 @@ return win;
 	 //posarr.push(y);
 	 //alert(this.id);
 	  myWord.push(this.innerHTML);
-	  console.log('my word and posarr');
- console.log(myWord);//the word i wrote
+	 // console.log('my word and posarr');
+ //console.log(myWord);//the word i wrote
  //console.log(posarr);//positions
  }
 else{
@@ -302,13 +302,13 @@ else{
 	draw(mistakecounter);
 	
 }
-console.log('magicWordarr');
-console.log(mistakecounter);
+//console.log('magicWordarr');
+//console.log(mistakecounter);
 
  //var x=document.getElementById("myinput");
  //x.value=myWord;
  status(magicWordarr,mistakecounter);
- console.log(magicWordarr);
+ //console.log(magicWordarr);
   });
   
   }
